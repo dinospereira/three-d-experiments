@@ -1,9 +1,9 @@
 import React from 'react';
 import { hot } from 'react-hot-loader';
-import './App.css';
+import SimpleBox from './SimpleBox/SimpleBox';
 
 const App = () => {
-    return <h1>Hello World!!!!</h1>;
+    return <SimpleBox />;
 };
 
 export default module.hot ? hot(App) : App;
